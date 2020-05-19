@@ -25,4 +25,10 @@ module.exports = {
       template: 'client/index.html'
     })
   ]
+  ,
+  devServer: {
+
+        historyApiFallback: true
+    }
+
 };
